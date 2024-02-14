@@ -1,0 +1,22 @@
+.h-img2{
+    background-image: ('.ro.jpg');
+   
+ height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.h1-tag{
+    padding-top: 25%;
+    /* font */
+    align-items: center;
+    justify-content: center;
+    color: rgb(241, 247, 249);
+    font-style: normal;
+    font-size: 60px;
+}
+html
+{
+    background-image: url('https://www.ixpap.com/images/2022/11/Messi-and-Ronaldo-Chess-Wallpaper-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

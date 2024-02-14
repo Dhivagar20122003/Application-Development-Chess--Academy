@@ -1,0 +1,86 @@
+.wrappe{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(17, 35, 122, 0.2);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    backdrop-filter: blur(30px);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.ok{
+    margin-left: 205px;
+    /* margin-top: 100px; */
+    padding-top: 50px;
+}
+.wrappe h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrappe .input-boxi{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+
+.input-boxi input{
+    
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: aliceblue;
+    /* padding: 20px 45px 20px 20px; */
+}
+.input-boxi input::placeholder{
+    color: rgb(253, 253, 253);
+    /* border-radius: 400px; */
+
+}
+.input-boxi .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+
+.wrappe button[type="submi"]{
+    width: 100%;
+    height: 45px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10 rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.wrappe button[type="submi"]:hover{
+    background-color: rgb(137, 36, 36);
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+.wrappe .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px 0 15px;
+}
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
